@@ -2,6 +2,9 @@ body {
     margin: auto 0;
     font-family: candara ;
 }
+h1 {
+    color: black;
+}
 .zone {
 /*    display:inline-block;*/
     color:#FFF;
@@ -75,6 +78,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction:column;
     height: 70vh;
     margin-top: 50px;
 }
